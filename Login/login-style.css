@@ -1,0 +1,77 @@
+@charset "utf-8";
+
+*{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(86, 29, 139);
+}
+
+.icon {
+    margin-right: 1220px;
+    padding: 15px;
+}
+
+.icon > a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+.loginCampo {
+    display: flex;
+    flex-direction: column;
+    width: 35vw;
+    height: 50vh;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.226);
+}
+
+
+div > input {
+    display: flex;
+    margin: 10px auto;
+    padding: 10px;
+    width: 250px;
+}
+
+.text {
+    border: 1px solid rgba(0, 0, 0, 0.548);
+    border-radius: 9px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.473);
+}
+
+div > #login {
+    border: 0px;
+    border-radius: 10px;
+    background-color: rgb(72, 72, 221);
+    padding-left: 120px;
+    width: 20vw;
+    padding-right: 30px;
+    color: aliceblue;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.281);
+}
