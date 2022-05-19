@@ -1,5 +1,9 @@
+@font-face {
+    font-family: BrohTec;
+    src: url("font/NotoSans-Black.ttf");
+}
 *{
-    font-family: "noto sans";
+    font-family: BrohTec;
     padding: 0;
     margin: 0;
 }
