@@ -1,9 +1,12 @@
 @charset "utf-8";
-
+@font-face {
+    font-family: BrohTec;
+    src: url("../font/NotoSans-Regular.ttf");
+}
 *{
     margin:0;
     padding: 0;
-    font-family: "Noto sans";
+    font-family: "BrohTec";
 }
 body{
     background: url(../image/tenis/add.jpg);
