@@ -1,0 +1,88 @@
+@charset "utf-8";
+
+*{
+    margin:0;
+    padding: 0;
+    font-family: "Noto sans";
+}
+body{
+    background: url(../image/tenis/add.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    
+}
+.tela{
+    display:flex;
+    flex-direction: column;
+    height: 90vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    padding: 18px;
+    width: 20vw;
+    border-radius: 7px;
+    border:1px solid rgb(139, 134, 134);
+    cursor: text;
+}
+ /* Add sobra no botão */
+button:hover{
+    background: rgb(86, 152, 252);
+}
+button:active {
+    background: rgb(49, 120, 226);
+    transition: background 30ms;
+}
+input:valid{
+    outline-color: rgb(49, 120, 226);
+}
+.input1, .input2, .button{
+    /* padding: 9px; */
+    margin-bottom: 10px;
+}
+
+form{
+    background:rgba(185, 176, 176, 0.623);
+    height: 50vh;
+    width: 30vw;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 18px;
+}
+button{
+    padding: 15px;
+    width: 22.5vw;
+    border-radius: 7px;
+    border:none;
+    background: rgb(49, 120, 226);
+    color:white;
+    font-weight: 700;
+    cursor: pointer;
+    
+}
+h2{
+    margin-right: 17vw;
+    margin-bottom: 5vh;
+
+}
+a{
+    text-decoration: none;
+    color: blue;
+    font-weight: 800;
+}
+h1{
+    color: white;
+    margin: 0;
+    padding: none;
+    overscroll-behavior: none;
+    width: 10vw;
+    padding: 10px;
+}
+
+h1{
+    margin-left: 73px;
+}
