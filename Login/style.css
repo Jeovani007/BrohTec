@@ -13,8 +13,31 @@ body{
     background-size: cover;
     background-position: center;
     overflow: hidden;
-    
+    animation: myFounds 60s infinite ease-in-out;
 }
+
+@keyframes myFounds {
+    0% {
+        background: url(../image/tenis/add.jpg);background-size: cover;
+        background-position: center;
+        overflow: hidden;
+    }
+    45% {
+        background: url(../image/tenis/tenis.jpg);
+        background-size: cover;
+        background-position: center;
+        overflow: hidden;
+    }
+    
+    100% {
+        background: url(../image/tenis/add.jpg);
+        background-size: cover;
+        background-position: center;
+        overflow: hidden;
+    }
+}
+
+
 .tela{
     display:flex;
     flex-direction: column;
